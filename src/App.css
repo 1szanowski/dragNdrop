@@ -1,0 +1,39 @@
+.globalWrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardItem {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px 5px;
+  background-color: bisque;
+}
+
+.grid {
+  display: flex;
+  margin: 10px;
+  padding: 10px 10px;
+}
+
+.containerCards {
+  margin: 10px;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 300px;
+}
+
+.cardHead {
+  background-color: blanchedalmond;
+  color: black;
+}
+
+.layout-dragging {
+  border-top: 4px dotted black;
+  border-right: 4px dotted black;
+  border-bottom: 4px dotted black;
+  border-left: 4px dotted black;
+}
